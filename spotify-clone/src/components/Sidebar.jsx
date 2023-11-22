@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { IoLibrary } from "react-icons/io5";
 import { MdHomeFilled, MdSearch } from "react-icons/md";
+import Playlist from "./Playlist";
 
 export default function Sidebar() {
   return (
@@ -28,6 +29,7 @@ export default function Sidebar() {
           </li>
         </ul>
       </div>
+      <Playlist />
     </Container>
   );
 }
